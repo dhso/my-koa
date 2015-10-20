@@ -1,0 +1,16 @@
+{% extends 'layout.htm' %}
+
+{% block title %}首页{% endblock %}
+
+{% block content %}
+  <h1>pics</h1>
+  <p>You have <strong>{{ pics.length }}</strong> pics!</p>
+  <ul id="pics">
+    {% for pic in pics %}
+      <li>
+        <h2>{{ pic.gry_title }}</h2>
+        <p><a href="/post/{{ pic.gry_id }}"> {{pic.smallsize_url}}</a></p>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

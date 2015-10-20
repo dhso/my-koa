@@ -1,0 +1,27 @@
+{
+    "name": "codeman",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Generated with koa&swig",
+    "dependencies": {
+        "koa": "1.x.x",
+        "koa-controller": "1.x.x",
+        "koa-body": "1.x.x",
+        "koa-views": "3.x.x",
+        "koa-static": "1.x.x",
+        "koa-session": "3.x.x",
+        "koa-logger": "1.x.x",
+        "swig": "1.x.x",
+        "mysql": "2.x.x"
+    },
+    "devDependencies": {
+        "debug": "1.x.x"
+    },
+    "engines": {
+        "node": ">= 0.11.9"
+    },
+    "scripts": {
+        "start": "node --harmony app",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
